@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
-import Burger from "../Burger";
+import Burger from "./Burger";
 import { AnimatePresence } from "framer-motion";
-import Stairs from "../Stairs";
-import Menu from "../Menu";
+import Stairs from "./Stairs";
+import Menu, { menu } from "./Menu";
 import Image from "next/image";
 import { images } from "@/public";
 import styles from "./style.module.scss";
@@ -12,7 +12,7 @@ export default function Header() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);
 
   return (
-    <div className={styles.headerContainer}>
+    <div id={menu[0].url} className={styles.headerContainer}>
       <Burger
         openMenu={() => {
           setMenuIsOpen(true);
@@ -22,7 +22,6 @@ export default function Header() {
         {menuIsOpen && (
           <>
             <Stairs />
-
             <Menu
               closeMenu={() => {
                 setMenuIsOpen(false);
@@ -38,6 +37,16 @@ export default function Header() {
         width={200}
         height={200}
       />
+      <article className={styles.contentWrapper}>
+        <h1>
+          Khám phá sức mạnh quân sự Việt Nam - Triển lãm Quốc phòng Quốc tế
+        </h1>
+        <p>
+          Hiện đại hóa quốc phòng, phát triển khí tài tiên tiến, bảo vệ chủ
+          quyền lãnh thổ. Khám phá thành tựu quân sự Việt Nam – trí tuệ, công
+          nghệ và ý chí kiên cường!
+        </p>
+      </article>
     </div>
   );
 }

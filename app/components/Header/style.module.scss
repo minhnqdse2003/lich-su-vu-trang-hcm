@@ -8,4 +8,19 @@
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center center;
+    box-shadow: inset 0px 60px 100px -10px #000,
+    inset 0px -260px 640px -10px #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .contentWrapper{
+        color: #fafafa;
+        margin: 2rem 4rem;
+
+        h1 {
+            text-transform: uppercase;
+            font-size: 4rem;
+        }
+    }
 }

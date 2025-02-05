@@ -1,0 +1,22 @@
+.contentWrapper {
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  .title {
+    position: sticky;
+    opacity: 0;
+    top: 10.25rem;
+    left: 0;
+    margin-bottom: 3.125rem;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    text-orientation: sideways-right;
+    font-size: 4rem;
+    text-align: center;
+    height: fit-content;
+    transition: opacity .6s ease;
+  }
+}

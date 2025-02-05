@@ -6,8 +6,8 @@ import { useRef } from "react";
 import gsap from "gsap";
 import Link from "next/link";
 
-export default function link({ data, index }) {
-  const { title, description, images } = data;
+export default function LinkComponent({ data, index, closeMenu, id }) {
+  const { title, description, url } = data;
   const outer = useRef(null);
   const inner = useRef(null);
 
@@ -47,8 +47,12 @@ export default function link({ data, index }) {
       {...mountAnim}
       custom={index}
       className={styles.el}
+      onClick={() => {
+        closeMenu();
+      }}
+      id={id}
     >
-      <Link href="/">{title}</Link>
+      <Link href={`#${url}`}>{title}</Link>
       <div ref={outer} className={styles.outer}>
         <div ref={inner} className={styles.inner}>
           {[...Array(2)].map((_, index) => {
