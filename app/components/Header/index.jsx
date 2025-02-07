@@ -7,6 +7,7 @@ import Menu, { menu } from "./Menu";
 import Image from "next/image";
 import { images } from "@/public";
 import styles from "./style.module.scss";
+import { grafierFont } from "@/fonts";
 
 export default function Header() {
   const [menuIsOpen, setMenuIsOpen] = useState(false);

@@ -10,6 +10,8 @@ const Card = ({
   src,
   url,
   color,
+  colorText,
+  colorTitle,
   progress,
   range,
   targetScale,
@@ -33,20 +35,18 @@ const Card = ({
           backgroundColor: color,
           scale,
           top: `calc(-5vh + ${i * 25}px)`,
+          color: colorText,
         }}
       >
-        <h2>{title}</h2>
+        <h2 style={{ color: colorTitle ?? "#000" }}>{title}</h2>
+        <div className={styles.description}>
+          <p>{description}</p>
+        </div>
 
-        <div className={styles.body}>
-          <div className={styles.description}>
-            <p>{description}</p>
-          </div>
-
-          <div className={styles.imageContainer}>
-            <motion.div className={styles.inner} style={{ scale: imageScale }}>
-              <Image fill src={`/images/${src}`} alt="image" />
-            </motion.div>
-          </div>
+        <div className={styles.imageContainer}>
+          <motion.div className={styles.inner} style={{ scale: imageScale }}>
+            <Image fill src={`/${src}`} alt="image" />
+          </motion.div>
         </div>
       </motion.div>
     </div>
