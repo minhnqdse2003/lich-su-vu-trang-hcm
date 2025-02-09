@@ -14,7 +14,16 @@ const Projects = ({ setActiveMenu }) => {
       >
         {projects.map((project, i) => {
           return (
-            <Link key={project.title} href={`#${project.url}`}>
+            <Link
+              key={project.title}
+              href={`/#${project.url}`}
+              onClick={(e) => {
+                e.preventDefault();
+                document
+                  .getElementById(project.url)
+                  .scrollIntoView({ behavior: "smooth" });
+              }}
+            >
               <li
                 onMouseOver={() => {
                   setActiveMenu(i);
@@ -27,8 +36,8 @@ const Projects = ({ setActiveMenu }) => {
                   ></div>
                   <Image
                     src={`/${project.src2}`}
-                    width={1100}
-                    height={1100}
+                    width={1920}
+                    height={1080}
                     alt={`${project.title}`}
                   />
                 </div>

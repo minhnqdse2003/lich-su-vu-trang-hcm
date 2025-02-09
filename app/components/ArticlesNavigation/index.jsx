@@ -21,12 +21,12 @@ const ArticleNavigation = () => {
 
   return (
     <main>
-      <h2 className={styles.title} id={menu[2].url}>
+      <h1 className={styles.title} id={menu[2].url}>
         Khí tài quân sự trưng bày
-      </h2>
+      </h1>
       <Projects setActiveMenu={setActiveMenu} />
       <Scene activeMenu={activeMenu} />
-      <div style={{ height: "25vh" }}></div>
+      <div style={{ height: "15vh" }}></div>
     </main>
   );
 };

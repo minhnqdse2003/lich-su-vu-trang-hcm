@@ -1,7 +1,6 @@
 import styles from "./style.module.scss";
 import { motion } from "framer-motion";
 import { mountAnim, rotateX } from "./anim";
-import Image from "next/image";
 import { useRef } from "react";
 import gsap from "gsap";
 import Link from "next/link";

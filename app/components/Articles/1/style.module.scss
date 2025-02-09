@@ -1,9 +1,8 @@
 .articlesWrapper {
-  width: 100vw;
+  width: 100%;
   height: fit-content;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   padding: 0;
   gap: 1.125rem;
 
@@ -49,6 +48,7 @@
     width: 50%;
     display: flex;
     flex-direction: column;
+    gap: 1.25rem;
 
     .contentWrapper {
       width: 100%;
@@ -72,25 +72,18 @@
         img:hover ~ h2 {
           transform: scaleX(0.8);
         }
-        h2 {
-          position: absolute;
-          margin: 0;
-          bottom: 0;
-          left: 0;
-          text-align: center;
-          text-transform: uppercase;
-          font-family: "Lexend Giga", serif;
-          align-items: center;
-          background-color: #98ca33;
-          color: white;
-          font-size: 1rem;
-          padding: 0 1rem;
-          letter-spacing: 0.0625rem;
-          width: 100%;
-          transition: transform 0.5s ease;
-        }
+      }
+      h2 {
+        text-transform: uppercase;
+        color: #333333;
+        font-size: 1.25rem;
+        font-weight: 400;
+        letter-spacing: 0.0625rem;
+        width: 100%;
+        transition: transform 0.5s ease;
       }
       .description {
+        margin: 0;
         font-family: "Montserrat", serif;
         letter-spacing: 0.0625rem;
         word-spacing: 0.03125rem;
@@ -102,5 +95,15 @@
         }
       }
     }
+  }
+}
+
+.container {
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  h1 {
+    text-transform: uppercase;
+    font-size: 3rem;
+    padding: 1rem 0;
   }
 }
