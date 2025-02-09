@@ -3,11 +3,12 @@
   height: fit-content;
   display: flex;
   flex-direction: row;
-  margin: 0 4rem;
-  gap: 1.25rem;
+  justify-content: center;
+  padding: 0;
+  gap: 1.125rem;
 
   .imageContainer {
-    width: 50%;
+    width: 40%;
     height: 100vh;
     position: sticky;
     top: 0;
@@ -52,15 +53,52 @@
     .contentWrapper {
       width: 100%;
       height: fit-content;
+      display: flex;
+      flex-direction: column;
       .imageWrapper {
-        width: 60%;
-        height: 40%;
-        display: flex;
-        writing-mode: vertical-rl;
+        aspect-ratio: 16/9;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
         img {
-          width: 90%;
+          width: 100%;
           height: 100%;
           object-fit: cover;
+          transition: transform 0.5s ease;
+        }
+        img:hover {
+          transform: scale(1.125);
+        }
+        img:hover ~ h2 {
+          transform: scaleX(0.8);
+        }
+        h2 {
+          position: absolute;
+          margin: 0;
+          bottom: 0;
+          left: 0;
+          text-align: center;
+          text-transform: uppercase;
+          font-family: "Lexend Giga", serif;
+          align-items: center;
+          background-color: #98ca33;
+          color: white;
+          font-size: 1rem;
+          padding: 0 1rem;
+          letter-spacing: 0.0625rem;
+          width: 100%;
+          transition: transform 0.5s ease;
+        }
+      }
+      .description {
+        font-family: "Montserrat", serif;
+        letter-spacing: 0.0625rem;
+        word-spacing: 0.03125rem;
+        line-height: 1.75rem;
+        font-size: 0.9rem;
+        padding-right: 3.125rem;
+        &::first-letter {
+          font-size: 2.75rem;
         }
       }
     }

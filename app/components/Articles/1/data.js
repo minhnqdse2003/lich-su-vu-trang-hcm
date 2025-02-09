@@ -11,14 +11,12 @@ export const articles1 = [
   },
   {
     title: `Rubezh-ME`,
-    description: `Scud-B
-Scud-B (SS-1C) là một loại tên lửa đạn đạo chiến thuật do Liên Xô phát triển, được đưa vào biên chế từ năm 1962. Với tầm bắn 300 km, khả năng triển khai trên xe phóng di động MAZ-543, và khả năng mang nhiều loại đầu đạn (HE, hóa học, hạt nhân), Scud-B đã trở thành một trong những hệ thống vũ khí phổ biến nhất thế kỷ 20.
-`,
+    description: `Rubezh-ME là tổ hợp tên lửa bờ do Nga sản xuất, chuyên dùng để phòng thủ bờ biển trước các mối đe dọa từ hải quân đối phương. Hệ thống có khả năng tấn công chính xác các mục tiêu trên biển từ khoảng cách xa, được triển khai trên khung gầm xe di động, giúp tăng cường khả năng cơ động và phản ứng nhanh trong tác chiến.`,
     src: "rubezh-6.webp",
   },
   {
     title: `Kornet-EM`,
-    description: `Rubezh-ME là tổ hợp tên lửa bờ do Nga sản xuất, chuyên dùng để phòng thủ bờ biển trước các mối đe dọa từ hải quân đối phương. Hệ thống có khả năng tấn công chính xác các mục tiêu trên biển từ khoảng cách xa, được triển khai trên khung gầm xe di động, giúp tăng cường khả năng cơ động và phản ứng nhanh trong tác chiến.`,
+    description: `Kornet-EM này có khả năng tiêu diệt xe tăng, thiết giáp và công sự kiên cố của đối phương, với tầm bắn xa và độ chính xác cao`,
     src: "Kornet-EM_MAKS-2011_09.jpg",
   },
   {
