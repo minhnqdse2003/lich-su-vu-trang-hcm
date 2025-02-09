@@ -20,14 +20,14 @@ const ArticleNavigation = () => {
   }, []);
 
   return (
-    <main>
+    <div>
       <h1 className={styles.title} id={menu[2].url}>
         Khí tài quân sự trưng bày
       </h1>
       <Projects setActiveMenu={setActiveMenu} />
       <Scene activeMenu={activeMenu} />
       <div style={{ height: "15vh" }}></div>
-    </main>
+    </div>
   );
 };
 

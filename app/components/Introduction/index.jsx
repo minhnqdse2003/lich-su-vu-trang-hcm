@@ -37,7 +37,7 @@ const Introduction = () => {
   });
 
   return (
-    <main ref={container} id={menu[1].url} className={styles.contentWrapper}>
+    <div ref={container} id={menu[1].url} className={styles.contentWrapper}>
       <h1
         className={styles.title}
         style={isVisible ? { opacity: 1 } : { opacity: 0 }}
@@ -59,7 +59,7 @@ const Introduction = () => {
           );
         })}
       </div>
-    </main>
+    </div>
   );
 };
 
