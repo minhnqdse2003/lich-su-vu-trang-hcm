@@ -1,10 +1,11 @@
 import React from "react";
+import "@fontsource-variable/lexend-giga";
 import Introduction from "./components/Introduction";
 import ArticleNavigation from "./components/ArticlesNavigation";
 import Article1 from "./components/Articles/1";
 import Article2 from "./components/Articles/2";
 import Article3 from "./components/Articles/3";
-import "@fontsource-variable/lexend-giga";
+import Article4 from "./components/Articles/4";
 
 const Page = () => {
   return (
@@ -14,6 +15,7 @@ const Page = () => {
       <Article1 />
       <Article2 />
       <Article3 />
+      <Article4 />
     </div>
   );
 };

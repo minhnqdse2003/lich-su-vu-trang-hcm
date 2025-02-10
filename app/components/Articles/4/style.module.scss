@@ -1,0 +1,11 @@
+.overlayContainer {
+  box-shadow: inset 0px -6px 87px 24px #000, inset -4px 2px 42px 24px #333333;
+  overflow: hidden;
+}
+
+.imageContainer {
+  overflow: hidden;
+  img:hover {
+    transform: scale(1.5);
+  }
+}
