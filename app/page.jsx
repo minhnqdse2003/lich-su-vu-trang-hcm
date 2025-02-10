@@ -4,6 +4,7 @@ import ArticleNavigation from "./components/ArticlesNavigation";
 import Article1 from "./components/Articles/1";
 import Article2 from "./components/Articles/2";
 import Article3 from "./components/Articles/3";
+import "@fontsource-variable/lexend-giga";
 
 const Page = () => {
   return (
