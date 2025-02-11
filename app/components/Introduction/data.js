@@ -3,7 +3,7 @@ export const sections = [
     title: "Quân đội chính quy",
     description:
       "Xây dựng quân đội nhân dân Việt Nam vững mạnh về chính trị, tư tưởng, tổ chức và đạo đức; tinh, gọn, mạnh, tiến lên hiện đại, đáp ứng yêu cầu nhiệm vụ bảo vệ Tổ quốc trong tình hình mới.",
-    src: "vna_potal_xay_dung_quan_doi_cach_mang_chinh_quy_tinh_nhue_hien_dai__stand.jpg",
+    src: "89555817644.png",
     link: "https://www.ignant.com/2023/03/25/ad2186-matthias-leidingers-photographic-exploration-of-awe-and-wonder/",
     color: "#fff",
     colorText: "#000",
