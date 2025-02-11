@@ -1,4 +1,4 @@
 export const images = {
   logo: `/logo.png`,
-  headerBanner: `/headerBanner.webp`,
+  headerBanner: `/snapedit_1739236352987.jpeg`,
 };
