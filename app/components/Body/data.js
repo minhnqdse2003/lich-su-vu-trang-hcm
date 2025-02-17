@@ -1,6 +1,6 @@
 export const sections = [
   {
-    title: "Hồ Chí Minh",
+    title: "Chủ Tịch Hồ Chí Minh",
     description:
       "Chủ tịch Hồ Chí Minh đặt nền móng cho nền quốc phòng tự chủ, giữ vững độc lập dân tộc. Người ưu tiên nhận viện trợ vũ khí thay vì quân đội nước ngoài, tự lực cánh sinh trong sản xuất vũ khí, xây dựng quân đội từ nhân dân và phát triển giáo dục quân sự.",
     src: "hochiminh.jpg",
