@@ -43,10 +43,10 @@ const Article3 = () => {
   return (
     <>
       <h1
-        id={menu[5].url}
+        id={menu[6].url}
         className="text-[3rem] uppercase py-[2rem] px-0 ml-[4rem]"
       >
-        {menu[5].title}
+        {menu[6].title}
       </h1>
       <div
         ref={sectionRef}

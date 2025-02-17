@@ -21,7 +21,7 @@ const ArticleNavigation = () => {
 
   return (
     <div>
-      <h1 className={styles.title} id={menu[2].url}>
+      <h1 className={styles.title} id={menu[3].url}>
         Khí tài quân sự trưng bày
       </h1>
       <Projects setActiveMenu={setActiveMenu} />

@@ -18,6 +18,11 @@ export const menu = [
     url: "gioi-thieu",
   },
   {
+    title: "Nền tảng quốc phòng",
+    description: "Chủ tịch Hồ Chí Minh tạo nên nền tảng quốc phòng vững chắc cho sự phát triển của nước Việt Nam",
+    url: "nen-tang",
+  },
+  {
     title: "Khí tài quân sự",
     description:
       "🚀 Tên lửa & Hệ thống phòng không ✈ Không quân (Máy bay chiến đấu, UAV, radar)",
@@ -91,7 +96,7 @@ export default function Menu({ closeMenu }) {
       <Link
         href={`#el_${currentIdx}`}
         onClick={() => {
-          if (currentIdx == 6) {
+          if (currentIdx == 7) {
             setCurrentIdx(0);
             return;
           }
