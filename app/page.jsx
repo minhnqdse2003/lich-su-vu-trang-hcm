@@ -7,6 +7,8 @@ import Article1 from "./components/Articles/1";
 import Article2 from "./components/Articles/2";
 import Article3 from "./components/Articles/3";
 import Article4 from "./components/Articles/4";
+import Article5 from "./components/Articles/5";
+
 
 const Page = () => {
   return (
@@ -18,6 +20,8 @@ const Page = () => {
       <Article2 />
       <Article3 />
       <Article4 />
+      <Article5 />
+
     </div>
   );
 };

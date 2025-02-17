@@ -8,6 +8,7 @@ const Card = ({
   i,
   title,
   description,
+  imageDescription,
   src,
   url,
   color,
@@ -45,10 +46,17 @@ const Card = ({
         </div>
 
         <div className={styles.imageContainer}>
-          <motion.div className={styles.inner} style={{ scale: imageScale }}>
-            <Image width={1920} height={1080} src={`/${src}`} alt="image" />
-          </motion.div>
-        </div>
+  <motion.div className={styles.inner} style={{ scale: imageScale }}>
+    <Image width={1920} height={1080} src={`/${src}`} alt="image" />
+  </motion.div>
+
+  {/* Thêm phần mô tả chồng lên ảnh */}
+  <div className={styles.descriptionOverlay}>
+    <p>{imageDescription}</p>
+  </div>
+</div>
+
+
       </motion.div>
     </div>
   );

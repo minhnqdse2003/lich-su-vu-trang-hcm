@@ -16,12 +16,12 @@ const Article4 = () => {
   return (
     <div
       className="w-100vw flex flex-col gap-[2rem] py-[2rem] px-[4rem]"
-      id={menu[6].url}
+      id={menu[7].url}
     >
       <h1
         className={`w-full text-center text-[6rem] tracking-tighter uppercase font-light`}
       >
-        {menu[6].title}
+        {menu[7].title}
       </h1>
       <div ref={ref} className="flex flex-row h-screen gap-[1rem]">
         {articles4.map((article, idx) => {

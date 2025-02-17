@@ -9,7 +9,7 @@ import { menu } from "../../Header/Menu";
 const Article2 = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.title} id={menu[4].url}>
+      <h1 className={styles.title} id={menu[5].url}>
         {projects[1].title}
       </h1>
       <article className={styles.articlesContainer}>

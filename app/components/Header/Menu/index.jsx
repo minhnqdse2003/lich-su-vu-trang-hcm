@@ -19,7 +19,7 @@ export const menu = [
   },
   {
     title: "Nền tảng quốc phòng",
-    description: "Chủ tịch Hồ Chí Minh tạo nên nền tảng quốc phòng vững chắc cho sự phát triển của nước Việt Nam ",
+    description: "Chủ tịch Hồ Chí Minh tạo nên nền tảng quốc phòng vững chắc cho sự phát triển của nước Việt Nam",
     url: "nen-tang",
   },
   {
