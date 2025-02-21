@@ -49,9 +49,7 @@ export default function LinkComponent({ data, index, closeMenu, id }) {
       onClick={(e) => {
         closeMenu();
         e.preventDefault();
-        document
-          .getElementById(url)
-          .scrollIntoView({ behavior: "smooth" });
+        document.getElementById(url).scrollIntoView({ behavior: "smooth" });
       }}
       id={id}
     >

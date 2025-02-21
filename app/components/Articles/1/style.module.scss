@@ -35,7 +35,6 @@
       h2 {
         text-transform: uppercase;
         font-family: "Lexend Giga Variable", sans-serif;
-
         font-size: 1.5rem;
       }
       p {
@@ -86,9 +85,12 @@
         color: #333333;
         font-size: 1.25rem;
         font-weight: 400;
-        letter-spacing: 0.0625rem;
+        letter-spacing: -0.0625rem;
         width: 100%;
         transition: transform 0.5s ease;
+        margin-top: 0.5rem;        
+        font-family: "Lexend Giga Variable", sans-serif;
+        margin-bottom: 1.125rem;
       }
       .description {
         margin: 0;
