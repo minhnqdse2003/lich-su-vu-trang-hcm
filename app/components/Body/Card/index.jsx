@@ -50,7 +50,6 @@ const Card = ({
     <Image width={1920} height={1080} src={`/${src}`} alt="image" />
   </motion.div>
 
-  {/* Thêm phần mô tả chồng lên ảnh */}
   <div className={styles.descriptionOverlay}>
     <p>{imageDescription}</p>
   </div>
