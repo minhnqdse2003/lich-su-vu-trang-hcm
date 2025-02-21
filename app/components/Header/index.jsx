@@ -30,6 +30,7 @@ export default function Header() {
           </>
         )}
       </AnimatePresence>
+      <div className="h-[12.5rem] w-[12.5rem]"/>
       <article className={styles.contentWrapper}>
         <h1>
           Khám phá sức mạnh quân sự Việt Nam từ{" "}
