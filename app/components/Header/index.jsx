@@ -30,13 +30,6 @@ export default function Header() {
           </>
         )}
       </AnimatePresence>
-      <Image
-        className={styles.logo}
-        alt="logo"
-        src={images.logo}
-        width={200}
-        height={200}
-      />
       <article className={styles.contentWrapper}>
         <h1>
           Khám phá sức mạnh quân sự Việt Nam từ{" "}
