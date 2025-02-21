@@ -46,12 +46,20 @@ export default function LinkComponent({ data, index, closeMenu, id }) {
       {...mountAnim}
       custom={index}
       className={styles.el}
-      onClick={() => {
+      onClick={(e) => {
         closeMenu();
+        e.preventDefault();
+        document
+          .getElementById(url)
+          .scrollIntoView({ behavior: "smooth" });
       }}
       id={id}
     >
-      <Link href={`#${url}`}>{title}</Link>
+      <Link
+        href={`/#${url}`}
+      >
+        {title}
+      </Link>
       <div ref={outer} className={styles.outer}>
         <div ref={inner} className={styles.inner}>
           {[...Array(2)].map((_, index) => {
